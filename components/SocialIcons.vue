@@ -20,8 +20,8 @@
 
     <!-- Email Link -->
     <NuxtLink target="_blank" href="mailto:raselshikdar597@gmail.com" title="Contact my Email" class="group">
-      <i-carbon-email class="icon icon--off" alt="Email Logo" />
-      <i-carbon-email class="icon icon--on" alt="Email Logo" />
+      <i-line-md-email class="icon icon--off" alt="Email Logo" />
+      <i-line-md-email-twotone class="icon icon--on" alt="Email Logo" />
     </NuxtLink>
 
     <!-- Website Link -->
