@@ -1,6 +1,6 @@
-# Evan-Yang(WIP)
+# Rasel Shikdar
 
-My personal website for [Evan-Yang](https://evan-yang.netlify.app/)
+My personal website for [My Blog](https://rsinfo.netlify.app/)
 
 ## Features
 
@@ -11,6 +11,7 @@ My personal website for [Evan-Yang](https://evan-yang.netlify.app/)
 - 🤖 Sitemap.xml and feed generation
 - 🍞 Automatic breadcrumbs (with Schema.org)
 - 🤝 Integrated with @nuxt/image, images served with [cloudinary](https://cloudinary.com)
+- ©️ This site is built by [Evan-Yang](https://evan-yang.netlify.app/)
 
 ## More Features
 
