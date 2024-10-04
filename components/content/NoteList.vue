@@ -1,26 +1,17 @@
 <script lang="ts" setup>
-const { data: postGroups } = await usePostList()
-const yearKeys = Object.keys(unref(postGroups)).reverse()
+const { data: categories } = await useProjects()
 </script>
 
 <template>
-  <div>
-    <div class="space-y-7">
-      <div v-for="year in yearKeys" :key="year">
-        <SubTitle>
-          {{ year }}
-        </SubTitle>
-        <div class="space-y-10">
-          <PostCard v-for="(post, key) in postGroups[year]" :key="key" :post="post" />
-        </div>
+  <div class="space-y-10">
+    <div v-for="(category, cKey) in categories.body" :key="cKey">
+      <SubTitle>{{ category.name }}</SubTitle>
+      <div class="grid md:grid-cols-2 gap-5">
+        <NoteCard v-for="(project, pKey) in category.projects" :key="pKey" :project="note" />
       </div>
     </div>
-    <NuxtLink
-      class="no-underline opacity-70  mt-8"
-      :to="$route.path.split('/').slice(0, -1).join('/') || '/'"
-    >
-      cd
-      ..
-    </NuxtLink>
   </div>
+  <NuxtLink class="font-mono no-underline opacity-70  mt-8" :to="$route.path.split('/').slice(0, -1).join('/') || '/'">
+    cd ..
+  </NuxtLink>
 </template>
