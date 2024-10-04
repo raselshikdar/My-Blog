@@ -6,7 +6,7 @@ const initials = siteMeta.name
 <template>
   <nuxt-link to="/" class="flex items-center group unstyled py-4" title="Go Home">
     <img
-      src="/rasel-shikdar.webp"
+      src="/raselshikdar.png"
       width="80"
       height="80"
       format="jpeg"
