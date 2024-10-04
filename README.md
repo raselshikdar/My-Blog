@@ -2,7 +2,7 @@
 
 My personal website for [My Blog](https://rsinfo.netlify.app/)
 
-This site is firstly built by [Evan-Yang](https://evan-yang.netlify.app/)
+This site is firstly built by [Evan-Yang](https://github.com/yzh990918/evan-yang/tree/master)
 
 ## Features
 
