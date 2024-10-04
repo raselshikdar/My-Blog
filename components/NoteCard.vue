@@ -21,5 +21,8 @@ defineProps({
 </template>
 
 <style>
-/* Add any custom styling here */
+.svg-container svg {
+  width: 35px;
+  height: 35px;
+}
 </style>
