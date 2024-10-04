@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import type { PropType } from 'vue'
+  import type { Note } from '~/types'
 
 interface Note {
   title: string
