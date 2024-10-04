@@ -2,6 +2,8 @@
 
 My personal website for [My Blog](https://rsinfo.netlify.app/)
 
+This site is firstly built by [Evan-Yang](https://evan-yang.netlify.app/)
+
 ## Features
 
 - 🔎 Automated Schema.org
@@ -11,7 +13,6 @@ My personal website for [My Blog](https://rsinfo.netlify.app/)
 - 🤖 Sitemap.xml and feed generation
 - 🍞 Automatic breadcrumbs (with Schema.org)
 - 🤝 Integrated with @nuxt/image, images served with [cloudinary](https://cloudinary.com)
-- ©️ This site is built by [Evan-Yang](https://evan-yang.netlify.app/)
 
 ## More Features
 
