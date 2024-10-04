@@ -8,7 +8,7 @@ nav: true
 ---
 
 ::prose
-# Notes : i-line-md-document
+# Notes :i-line-md-document
 
 This is a directory of the open-source packages and tools.
 ::
