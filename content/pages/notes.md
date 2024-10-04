@@ -1,14 +1,16 @@
 ---
 title: "Notes"
 prose: false
+description: "This is a directory of the open-source packages and tools I've released that are actively maintained."
 schema.type: CollectionPage
-icon: i-line-md-text-box-multiple
-description: "This is a directory of the notes I have written and published that are sometimes updated."
+icon: i-line-md-lightbulb
 nav: true
 ---
 
 ::prose
-# Blog :i-line-md-text-box-multiple
+# Notes : i-line-md-stickynote
+
+This is a directory of the open-source packages and tools.
 ::
 
 <NoteList />
