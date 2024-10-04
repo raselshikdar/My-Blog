@@ -1,33 +1,25 @@
 <script lang="ts" setup>
 import type { PropType } from 'vue'
-import type { Note } from '~/types'
+
+interface Note {
+  title: string
+  content: string
+  date: string
+}
 
 defineProps({
-  project: Object as PropType<Note>,
+  note: Object as PropType<Note>,
 })
 </script>
 
 <template>
-  <a
-    :href="project.link"
-    target="_blank"
-    class="!flex items-center space-x-3 p-4 group rounded border-gray-200/50 border-2 hover:bg-white dark:(border-gray-800/30) dark:hover:bg-gray-800 transition-all"
-  >
-    <div
-      v-if="project.icon"
-      class="opacity-40 mr-2 group-hover:opacity-75 transition-all svg-container"
-      v-html="project.icon"
-    />
-    <div>
-      <h2 class="mb-2 text-lg">{{ project.name }}</h2>
-      <p class="text-xs opacity-75">{{ project.description }}</p>
-    </div>
-  </a>
+  <div class="flex flex-col space-y-2 p-4 rounded border-2 border-gray-200/50 hover:bg-yellow-100 dark:(border-gray-800/30 hover:bg-gray-700) transition-all">
+    <h2 class="text-lg font-bold">{{ note.title }}</h2>
+    <p class="text-sm opacity-75">{{ note.content }}</p>
+    <small class="text-xs text-gray-500 dark:text-gray-400">{{ note.date }}</small>
+  </div>
 </template>
 
 <style>
-.svg-container svg {
-  width: 35px;
-  height: 35px;
-}
+/* Add any custom styling here */
 </style>
