@@ -1,9 +1,8 @@
 <script lang="ts" setup>
 import { useNotes } from '~/composables/content'
-import NoteCard from './NoteCard.vue'  // Import your NoteCard component
+import NoteCard from './NoteCard.vue'
 
-// Fetching the categories containing notes
-const { data: categories } = await useNotes()
+const { data: categories } = await useNotes() // Fetch notes data using the custom composable
 </script>
 
 <template>
@@ -11,7 +10,6 @@ const { data: categories } = await useNotes()
     <div v-for="(category, cKey) in categories.body" :key="cKey">
       <SubTitle>{{ category.name }}</SubTitle>
       <div class="grid md:grid-cols-2 gap-5">
-        <!-- Iterating over notes in each category -->
         <NoteCard v-for="(note, nKey) in category.notes" :key="nKey" :note="note" />
       </div>
     </div>
