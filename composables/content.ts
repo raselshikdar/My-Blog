@@ -1,14 +1,19 @@
-
 import { packMeta, unpackMeta } from '@zhead/vue'
 import { useAsyncData } from '#app'
 import { SiteName, groupBy } from '~/logic'
 import { nextTick, queryContent, unref, useHead, watch } from '#imports'
-import type { JsonParsedContent, Page, Post, ProjectList } from '~/types'
+import type { JsonParsedContent, Page, Post, ProjectList, NoteList } from '~/types'
 import type { MaybeRef } from '@vueuse/schema-org'
 
 export const useProjects = () => {
   return useAsyncData('content:projects', () =>
     queryContent<JsonParsedContent<ProjectList>>('projects').findOne(),
+  )
+}
+
+export const useNotes = () => {
+  return useAsyncData('content:notes', () =>
+    queryContent<JsonParsedContent<NoteList>>('notes').findOne(),
   )
 }
 
