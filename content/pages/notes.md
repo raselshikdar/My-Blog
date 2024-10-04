@@ -11,4 +11,4 @@ nav: true
 # Blog :i-line-md-text-box-multiple
 ::
 
-<PostList />
+<NoteList />
