@@ -1,10 +1,10 @@
-export const SiteName = 'evan-yang'
-export const SiteUrl = 'https://evan-yang.top/'
+export const SiteName = 'Rasel Shikdar'
+export const SiteUrl = 'https://rsinfo.netlify.app/'
 export const SiteImage = '/cover.png'
 export const SiteLogo = '/cover'
-export const SiteLanguage = 'en-ZH'
+export const SiteLanguage = 'en-BN'
 export const SiteTagLine = 'Open Source Orgaization'
-export const SiteDescription = 'Some Descriptions.'
+export const SiteDescription = 'Rasel Shikdar&#39;s Personal Website &amp; Blog.'
 export const SameAs = [
   '',
   '',
