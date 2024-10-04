@@ -1,14 +1,14 @@
 <template>
   <div>
-    <NuxtLink target="_blank" href="https://twitter.com/zhihaoy18640576" title="Visit my Twitter" class="group">
+    <NuxtLink target="_blank" href="https://twitter.com/raselshikdar_" title="Visit my Twitter" class="group">
       <i-line-md-twitter class="icon icon--off" alt="Twitter Logo" />
       <i-line-md-twitter-twotone class="icon icon--on" alt="Twitter Logo" />
     </NuxtLink>
-    <NuxtLink target="_blank" href="https://github.com/yzh990918" title="Visit my GitHub" class="group">
+    <NuxtLink target="_blank" href="https://github.com/raselshikdar" title="Visit my GitHub" class="group">
       <i-line-md-github class="icon icon--off" alt="Github Logo" />
       <i-line-md-github-loop class="icon icon--on" alt="Github Logo" />
     </NuxtLink>
-    <NuxtLink target="_blank" href="https://mailto:mohen1024@gmail.com" title="Visit my Email" class="group">
+    <NuxtLink target="_blank" href="https://mailto:raselshikdar597@gmail.com" title="Contact my Email" class="group">
       <i-carbon-email class="icon icon--off" alt="Discord Logo" />
       <i-carbon-email class="icon icon--on" alt="Discord Logo" />
     </NuxtLink>
