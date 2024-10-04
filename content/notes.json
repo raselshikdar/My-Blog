@@ -2,7 +2,6 @@
   "body": [
     {
       "name": "Work",
-      "color": "#ffeb3b",
       "notes": [
         {
           "title": "Meeting Notes",
@@ -18,7 +17,6 @@
     },
     {
       "name": "Personal",
-      "color": "#ff9800",
       "notes": [
         {
           "title": "Grocery List",
@@ -34,7 +32,6 @@
     },
     {
       "name": "Ideas",
-      "color": "#2196f3",
       "notes": [
         {
           "title": "App Idea",
@@ -50,7 +47,6 @@
     },
     {
       "name": "Learning",
-      "color": "#4caf50",
       "notes": [
         {
           "title": "Vue.js Tips",
