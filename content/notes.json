@@ -2,69 +2,65 @@
   "body": [
     {
       "name": "Work",
+      "color": "#ffeb3b",
       "notes": [
         {
           "title": "Meeting Notes",
           "content": "Discuss project milestones, deadlines, and next steps.",
-          "date": "2024-10-04",
-          "color": "#FFDDC1"  // Light pink
+          "date": "2024-10-04"
         },
         {
           "title": "Task List",
           "content": "1. Complete report\n2. Send client emails\n3. Prepare for next week's presentation",
-          "date": "2024-10-03",
-          "color": "#CFFFE0"  // Light green
+          "date": "2024-10-03"
         }
       ]
     },
     {
       "name": "Personal",
+      "color": "#ff9800",
       "notes": [
         {
           "title": "Grocery List",
           "content": "1. Buy milk\n2. Eggs\n3. Bread\n4. Vegetables",
-          "date": "2024-10-02",
-          "color": "#ADD8E6"  // Light blue
+          "date": "2024-10-02"
         },
         {
           "title": "Books to Read",
           "content": "1. 'Atomic Habits' by James Clear\n2. 'The Pragmatic Programmer'",
-          "date": "2024-09-30",
-          "color": "#FFFACD"  // Light yellow
+          "date": "2024-09-30"
         }
       ]
     },
     {
       "name": "Ideas",
+      "color": "#2196f3",
       "notes": [
         {
           "title": "App Idea",
           "content": "Build an educational app that helps students track assignments and improve productivity.",
-          "date": "2024-10-01",
-          "color": "#E6E6FA"  // Light purple
+          "date": "2024-10-01"
         },
         {
           "title": "Blog Post Ideas",
           "content": "1. Benefits of TypeScript in large projects\n2. How to improve SEO for Next.js apps",
-          "date": "2024-09-29",
-          "color": "#FFB6C1"  // Light pink
+          "date": "2024-09-29"
         }
       ]
     },
     {
       "name": "Learning",
+      "color": "#4caf50",
       "notes": [
         {
           "title": "Vue.js Tips",
           "content": "Explore Composition API for better reusability in large-scale projects.",
-          "date": "2024-09-28",
-          "color": "#FFDAB9"  // Light peach
+          "date": "2024-09-28"
         },
         {
           "title": "Next.js Best Practices",
           "content": "Research server-side rendering techniques and how to optimize build performance.",
-          "date": "2024-09-27",
-          "color": "#C0E0DE"  // Light teal
+          "date": "2024-09-27"
         }
       ]
     }
