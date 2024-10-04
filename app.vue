@@ -28,7 +28,7 @@ const siteMeta = useSiteMeta()
           <SocialIcons />
         </div>
         <p class="mb-3">
-          © 2023-PRESENT Evan-Yang. All rights reserved.
+          © 2024 Rasel Shikdar. All rights reserved.
         </p>
       </footer>
     </Body>
