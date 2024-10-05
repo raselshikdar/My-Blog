@@ -1,2 +1,16 @@
 User-agent: *
 Allow: /
+
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /search
+
+# Disallow access to sensitive files
+Disallow: /private/
+Disallow: /temp/
+
+# Allow all crawlers to index sitemap
+Sitemap: https://info.rasel.us.kg/sitemap.xml
+
+# Optional: Specify crawl delay to prevent server overload
+Crawl-delay: 10
