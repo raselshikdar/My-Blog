@@ -16,7 +16,9 @@ defineProps({
 const renderEmbed = (embed: Embed) => {
   switch (embed.type) {
     case 'youtube':
-      return `<iframe width="100%" height="315" src="${embed.url}" frameborder="0" allowfullscreen></iframe>`;
+      // Extract the video ID from the YouTube URL
+      const youtubeId = embed.url.split('v=')[1]?.split('&')[0] || '';
+      return `<iframe width="100%" height="315" src="https://www.youtube.com/embed/${youtubeId}" frameborder="0" allowfullscreen></iframe>`;
     case 'facebook':
       return `<iframe src="${embed.url}" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>`;
     case 'm3u8':
