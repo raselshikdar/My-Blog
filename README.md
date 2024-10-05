@@ -1,6 +1,6 @@
 # Rasel Shikdar
 
-My personal website for [My Blog](https://rsinfo.netlify.app/)
+My personal website for [My Blog](https://info.rasel.us.kg/)
 
 This site is firstly built by [Evan-Yang](https://github.com/yzh990918/evan-yang/tree/master)
 
