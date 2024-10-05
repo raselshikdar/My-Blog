@@ -1,5 +1,5 @@
 export const SiteName = 'Rasel Shikdar'
-export const SiteUrl = 'https://rsinfo.netlify.app/'
+export const SiteUrl = 'https://info.rasel.us.kg/'
 export const SiteImage = '/cover.png'
 export const SiteLogo = '/cover'
 export const SiteLanguage = 'en-BN'
