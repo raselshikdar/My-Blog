@@ -13,6 +13,4 @@ nav: true
 This is a directory of the open-source packages and tools.
 ::
 
-<EmbedList />
-
 <NoteList />
